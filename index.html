@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo"> Select Your Hero </h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/thor.png" alt="Personagem selecionado-jogador-1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Thor</h2>
+                </div>
+            </div>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="thor" data-name="Thor">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/thor.jpg" alt="Personagem Thor">
+                </li>
+
+                <li class="personagem" id="homem-de-ferro" data-name="Iron Man">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/homem-de-ferro.jpg" alt="Personagem Iron Man">
+                </li>
+
+                <li class="personagem" id="viuva-negra" data-name="Viúva Negra">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/viuva-negra.jpg" alt="Personagem Viúva Negra">
+                </li>
+
+                <li class="personagem" id="hulk" data-name="Hulk">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/hulk.jpg" alt="Personagem Hulk">
+                </li>
+
+                <li class="personagem" id="capitao-america" data-name="Capitão América">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/capitao-america.jpg" alt="Personagem Capitão América">
+                </li>
+
+                <li class="personagem" id="pantera-negra" data-name="Black Panter">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/pantera-negra.jpg" alt="Personagem Blanck Panter">
+                </li>
+
+                <li class="personagem" id="homem-aranha" data-name="Spider Man">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/homem-aranha.jpg" alt="Personagem Spider Man">
+                </li>
+
+                <li class="personagem" id="dr-estranho" data-name="Dr Strange">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/dr-estranho.jpg" alt="Dr Strange">
+                </li>
+
+                <li class="personagem" id="gaviao-arqueiro" data-name="Hawkeye">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gaviao-arqueiro.jpg" alt="Personagem Hawkeye">
+                </li>
+                <li class="personagem" id="groot" data-name="Groot">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/groot.jpg" alt="Personagem Groot">
+                </li>
+                <li class="personagem" id="homem-formiga" data-name="Ant-Man">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/homem-formiga.jpg" alt="Personagem Ant-man">
+                </li>
+
+                <li class="personagem" id="soldado-invernal" data-name="Winter Soldier">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/soldado-invernal.jpg" alt="Personagem Winter Soldier">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="ultron" data-name="Ultron">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/ultron.jpg" alt="Personagem Ultron">
+                </li>
+
+                <li class="personagem" id="barao-zemo" data-name="Baron Zemo">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/barao-zemo.jpg" alt="Personagem Baron Zemo">
+                </li>
+
+                <li class="personagem" id="duende-verde" data-name="Green Elf">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/duende-verde.jpg" alt="Green Elf">
+                </li>
+
+                <li class="personagem" id="loki" data-name="Loki">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/loki.jpg" alt="Personagem Loki">
+                </li>
+
+                <li class="personagem" id="thanos" data-name="Thanos">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/thanos.jpg" alt="Personagem Thanos">
+                </li>
+
+                <li class="personagem" id="caveira-vermelha" data-name="Red Skull">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/caveira-vermelha.jpg" alt="Personagem Red Skull">
+                </li>
+
+                <li class="personagem" id="dr-octopus" data-name="Dr Octopus">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/dr-octopus.jpg" alt="Personagem Dr Octopus">
+                </li>
+
+                <li class="personagem" id="venom" data-name="Venom">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/venom.jpg" alt="Personagem Venom">
+                </li>
+
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/ultron.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2 id="nome-jogador-2">Ultron</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
