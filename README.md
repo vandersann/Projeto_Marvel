@@ -43,7 +43,7 @@ Como alternativa, consulte a documentação do <kbd>[Github](https://help.github
 Esse projeto está sob licença. Veja o arquivo <kbd>[MIT](Mit.md)</kbd> para mais detalhes.
 
 <p align="center">
-  <img witdh="300" src="https://vandersann.github.io/Projeto_Marvel/src/apresentacao/sandino.svg" alt="logo do criador do projeto")
+  <img witdh="300" src="https://user-images.githubusercontent.com/65673565/190916838-46057236-9d6e-4e75-b919-d24f673caec7.svg" alt="logo do criador do projeto")
  </p>
 
 [⬆ Voltar ao topo](#Landing_Page_Mundo_Invertido)<br>
