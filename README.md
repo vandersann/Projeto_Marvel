@@ -11,7 +11,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/Projeto_Marvel?style=for-the-badge)
 
 <p align="center">
-#Projeto_Marvel
 <img  width="800" src="/src/apresentacao/apresentacao.gif" alt="apresentacao do site">
 </p>
 
