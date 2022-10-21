@@ -30,7 +30,7 @@
 Para acessar o projeto é fácil: <a href="https://vandersann.github.io/Projeto_Marvel/" target="_blank"><kbd>click aqui</kbd></a> ou aponte seu celular | <img src="/src/apresentacao/qrcode.png" height="125" width="125" alt="apresentacao do site">
 :--------- | :---------
 
-# :ok_hand: Contribuindo com o Projeto_Marvel
+## :ok_hand: Contribuindo com o Projeto_Marvel
 
 1. Faça o <kbd>[Fork](https://github.com/vandersann/Projeto_Marvel/fork)</kbd> do projeto
 2. Crie um _Branch_: `git checkout -b <Projeto_Marvel>`.
